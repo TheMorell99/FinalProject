@@ -27,9 +27,9 @@ Farm class represents the printer farm and initializes the TelegramBot class (on
   $ /usr/local/opt/mosquitto/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
   ```
 
-4.- Run the program.
+4.- Run the program (remember to install requirements.txt).
   ```
-  $ python3 farm.py --c config.yaml
+  $ python3 main.py --c config.yaml
   ```
 
 5.- Open second terminal to run the mqtt subscriber.

@@ -12,7 +12,7 @@ Farm class represents the printer farm and initializes the TelegramBot class (on
 
 1.- Create telegram bot and obtain token and chat_id
 
-2.- Configure config.yaml file with your telegram token, chat id and timer.
+2.- Create config.yaml file on /src directory and add telegram token, chat id and timer like this:
   ```
     telegram:
       token: ""

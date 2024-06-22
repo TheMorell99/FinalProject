@@ -24,7 +24,7 @@ Farm class represents the printer farm and initializes the TelegramBot class (on
 
 3.- Run mosquitto server (important to run the command with the correct mosquitto.conf). 
   ```
-  $/usr/local/opt/mosquitto/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
+  $ /usr/local/opt/mosquitto/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
   ```
 
 4.- Run the program.
